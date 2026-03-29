@@ -18,8 +18,8 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
 # Dataset
  - Dataset used: spam.csv
  - contains:
-        - Category → Spam / Ham
-        - Message → Text data
+     - Category → Spam / Ham
+     - Message → Text data
 
 # Data Cleaning Steps
  - Removed duplicate records
@@ -36,7 +36,7 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
  - Streamlit
 
 # Workflow
-#1. Data Preprocessing
+  ## 1. Data Preprocessing
     - Removed duplicates
     - Handled null values
     - Renamed target labels
@@ -70,7 +70,7 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
    - User can enter a message
    - Model predicts whether it is Spam or Not Spam
  
-   ##Run the app:
+   ## Run the app:
      - streamlit run spamDetection.py
   
 # Key Insights
