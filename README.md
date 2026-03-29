@@ -41,37 +41,37 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
     - Handled null values
     - Renamed target labels
     
-#2. Train-Test Split
- - Split data into training and testing sets (80:20)
+  ## 2. Train-Test Split
+    - Split data into training and testing sets (80:20)
    
-#3. Feature Extraction
- - Used CountVectorizer to convert text into numerical features
- - Removed English stopwords
+  ## 3. Feature Extraction
+    - Used CountVectorizer to convert text into numerical features
+    - Removed English stopwords
    
-#4. Model Building
- - Applied Multinomial Naive Bayes algorithm
+  ## 4. Model Building
+    - Applied Multinomial Naive Bayes algorithm
 
-   ## Why this model?
-     - Works efficiently for text classification
-     - Handles high-dimensional data well
+    ## Why this model?
+    - Works efficiently for text classification
+    - Handles high-dimensional data well
        
-#5. Model Evaluation
- - Evaluated using accuracy score
-     - Model Accuracy: 98.44%
+  ## 5. Model Evaluation
+    - Evaluated using accuracy score
+    - Model Accuracy: 98.44%
   
-#6. Prediction
- - Example:
-     - Input: "Congratulations, you won a lottery"
-     - Output: Spam
+  ## 6. Prediction
+    - Example:
+    - Input: "Congratulations, you won a lottery"
+    - Output: Spam
 
 # Web Application
- - A simple web app is created using Streamlit:
- - Features:
-   - User can enter a message
-   - Model predicts whether it is Spam or Not Spam
+    - A simple web app is created using Streamlit:
+    - Features:
+      - User can enter a message
+      - Model predicts whether it is Spam or Not Spam
  
    ## Run the app:
-     - streamlit run spamDetection.py
+     ## streamlit run spamDetection.py
   
 # Key Insights
  - Certain keywords strongly indicate spam (e.g., “free”, “win”, “Congratulations”)
