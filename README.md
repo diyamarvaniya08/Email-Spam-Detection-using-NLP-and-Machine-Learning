@@ -70,8 +70,8 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
       - User can enter a message
       - Model predicts whether it is Spam or Not Spam
  
-   ## Run the app:
-   # streamlit run spamDetection.py
+ # Run the app:
+   ## streamlit run spamDetection.py
   
 # Key Insights
  - Certain keywords strongly indicate spam (e.g., “free”, “win”, “Congratulations”)
