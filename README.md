@@ -51,7 +51,7 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
   ## 4. Model Building
     - Applied Multinomial Naive Bayes algorithm
 
-    ## Why this model?
+   ## Why this model?
     - Works efficiently for text classification
     - Handles high-dimensional data well
        
@@ -71,7 +71,7 @@ Spam detection is widely used in real-world applications like Gmail and Outlook 
       - Model predicts whether it is Spam or Not Spam
  
    ## Run the app:
-     ## streamlit run spamDetection.py
+   # streamlit run spamDetection.py
   
 # Key Insights
  - Certain keywords strongly indicate spam (e.g., “free”, “win”, “Congratulations”)
